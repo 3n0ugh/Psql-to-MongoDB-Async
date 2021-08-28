@@ -3,7 +3,7 @@ import asyncpg
 import sys
 #region imports
 from pymongo import MongoClient
-import pandas as pd
+#import pandas as pd
 import time
 # from decimal import Decimal
 # from bson.decimal128 import Decimal128 # when changing the _id 
