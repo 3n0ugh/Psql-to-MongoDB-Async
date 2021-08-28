@@ -46,7 +46,9 @@ async def run():
                 cnt+=1
                 
                 cr=dict(cr)
-
+                
+                # cr["column_name"] = type(cr["column_name"])
+                # if you have a _id column you need to use Decimal128 as type
                 cr["film_id"]=int(cr["film_id"])
                 cr["title"]=str(cr["title"])
                 cr["description"]=str(cr["description"])
