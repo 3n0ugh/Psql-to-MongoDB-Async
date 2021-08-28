@@ -5,8 +5,8 @@ import sys
 from pymongo import MongoClient
 import pandas as pd
 import time
-from decimal import Decimal
-from bson.decimal128 import Decimal128
+# from decimal import Decimal
+# from bson.decimal128 import Decimal128 # when changing the _id 
 from datetime import datetime,date, timedelta
 
 myclient = MongoClient("mongodb://localhost:27017")
